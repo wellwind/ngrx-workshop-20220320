@@ -13,7 +13,7 @@ export class AppComponent {
    *
    */
   constructor(private store: Store) {
-    
+
   }
 
   ngOnInit() {

@@ -10,6 +10,9 @@ export const selectTodoItems = createSelector(
   (state: fromTodoList.TodoListState) => state.todoItems
 );
 
+/**
+ * 取得未完成的代辦項目
+ */
 export const undoneTodoItems = createSelector(
   selectTodoItems,
   (state: fromTodoList.TodoItem[]) => state.filter(item => !item.done)
