@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "ngrx-workshop-20220320"
+  "defaultProject": "ngrx-workshop-20220320",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
